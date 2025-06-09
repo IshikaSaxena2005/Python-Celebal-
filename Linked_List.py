@@ -9,6 +9,8 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+
+
     def append(self, data):
         """Add a node with the given data to the end of the list."""
         new_node = Node(data)
