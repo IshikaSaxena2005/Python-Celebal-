@@ -3,8 +3,7 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-
-
+#initializing the class and creating functions: append,print_list, delete_nth_node
 class LinkedList:
     """Class to manage the singly linked list."""
     def __init__(self):
